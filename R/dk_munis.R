@@ -11,7 +11,7 @@
 #'
 dk_munis <- function(){
 
-  muni <- readr::read_file(readr::read_file(system.file("municipalities.txt", package = "zipdk")))
+  muni <- readr::read_file(system.file("municipalities.txt", package = "zipdk"))
 
   muni <- jsonlite::fromJSON(muni)
 
