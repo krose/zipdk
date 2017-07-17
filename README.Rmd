@@ -1,0 +1,58 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# zipdk
+
+The goal of zipdk is to have a few easy functions to map the postal codes, regions and municipalities with city, region and municipality names.
+
+## Installation
+
+You can install zipdk from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("krose/zipdk")
+```
+
+## Example
+
+This is how you get the postal codes:
+
+```{r zip}
+
+dk_zips()
+
+```
+
+This is how you get the municipalities:
+
+```{r muni}
+
+dk_munis()
+
+```
+
+This is how you get the municipalities:
+
+```{r regions}
+
+dk_regions()
+
+```
+
+## Further Development
+
+Pull requests are accepted.
+
+I might geo code the data.
