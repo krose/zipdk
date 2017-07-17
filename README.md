@@ -91,4 +91,4 @@ Further Development
 
 Pull requests are accepted.
 
-I might geo code the data.
+I might geocode the data.
