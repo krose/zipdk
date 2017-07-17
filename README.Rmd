@@ -25,6 +25,12 @@ You can install zipdk from github with:
 devtools::install_github("krose/zipdk")
 ```
 
+```{r loadlibrary}
+# install.packages("devtools")
+library(zipdk)
+```
+
+
 ## Example
 
 This is how you get the postal codes:
